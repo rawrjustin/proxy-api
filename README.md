@@ -9,6 +9,7 @@ All endpoints will be authenticated via token authentication and must include th
 *Token auth currently disabled for testing purposes*
 
 ### Login
+____
 
 **POST  `/api/login`**
 
@@ -31,6 +32,8 @@ Response:
 }
 ```
 
+### Destinations
+____
 
 **GET  `/api/destinations`**
 
