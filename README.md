@@ -10,7 +10,7 @@ All endpoints will be authenticated via token authentication and must include th
 
 ### Login
 
-POST  `/api/login`
+**POST  `/api/login`**
 
 Logs in via FACEBOOK (or signs up if user is new) the user and passes back the user object Pass in a JSON object with key `authToken` and the access token provided by facebookSDK login
 
@@ -32,7 +32,7 @@ Response:
 ```
 
 
-GET  `/api/destinations`
+**GET  `/api/destinations`**
 
 Gets the list of destinations supported, and all associated attractions
 
