@@ -1,5 +1,6 @@
 # API for Proxy App
 
+
 All endpoints accept and return JSON.
 All endpoints will be authenticated via token authentication and must include this header with valid token returned by login
 `Authorization: Token token="a3caf3291c5b0469f2bb04e360438211"`
@@ -7,7 +8,7 @@ All endpoints will be authenticated via token authentication and must include th
 
 ## Login
 
-**POST  `/api/login`**
+####POST  `/api/login`
 
 Logs in via FACEBOOK (or signs up if user is new) the user and passes back the user object Pass in a JSON object with key `authToken` and the access token provided by facebookSDK login
 
@@ -30,7 +31,7 @@ Response:
 
 ## Destinations
 
-**GET  `/api/destinations`**
+####GET  `/api/destinations`
 
 Gets the list of destinations supported, and all associated attractions
 
