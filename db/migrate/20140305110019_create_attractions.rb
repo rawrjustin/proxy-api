@@ -3,6 +3,7 @@ class CreateAttractions < ActiveRecord::Migration
     create_table :attractions do |t|
       t.string :name
       t.text :description
+      t.string :photos, array: true
 
       t.timestamps
     end

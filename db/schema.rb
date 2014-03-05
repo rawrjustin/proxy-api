@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20140305121626) do
   create_table "attractions", force: true do |t|
     t.string   "name"
     t.text     "description"
+    t.string   "photos",         array: true
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "destination_id"
@@ -35,7 +36,6 @@ ActiveRecord::Schema.define(version: 20140305121626) do
   create_table "events", force: true do |t|
     t.string   "name"
     t.text     "description"
-    t.string   "photos",         array: true
     t.decimal  "price"
     t.datetime "start_time"
     t.datetime "end_time"

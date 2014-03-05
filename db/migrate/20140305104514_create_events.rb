@@ -3,7 +3,6 @@ class CreateEvents < ActiveRecord::Migration
     create_table :events do |t|
       t.string :name
       t.text :description
-      t.string :photos, array: true
       t.decimal :price
       t.datetime :start_time
       t.datetime :end_time
