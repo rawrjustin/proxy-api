@@ -19,7 +19,8 @@ Parameters:
 
 Response:
 ```javascript
-{ "id":2,
+{ 
+  "id":2,
   "name":"Justin Huang",
   "facebook_id":"1141801215",
   "email":"justingotemail@gmail.com",
@@ -37,7 +38,8 @@ Gets the list of destinations supported, and all associated attractions
 
 Response:
 ```javascript
-[{  "id":1,
+[{  
+    "id":1,
     "name":"Cabo San Lucas",
     "attractions":[
       {  "id":5,
