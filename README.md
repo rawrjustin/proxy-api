@@ -1,15 +1,11 @@
 # API for Proxy App
-____________________
-
-## Endpoints
 
 All endpoints accept and return JSON.
 All endpoints will be authenticated via token authentication and must include this header with valid token returned by login
 `Authorization: Token token="a3caf3291c5b0469f2bb04e360438211"`
 *Token auth currently disabled for testing purposes*
 
-### Login
----
+## Login
 
 **POST  `/api/login`**
 
@@ -32,8 +28,7 @@ Response:
 }
 ```
 
-### Destinations
----
+## Destinations
 
 **GET  `/api/destinations`**
 
