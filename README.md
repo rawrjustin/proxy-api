@@ -15,19 +15,21 @@ POST  `/api/login`
 Logs in via FACEBOOK (or signs up if user is new) the user and passes back the user object Pass in a JSON object with key `authToken` and the access token provided by facebookSDK login
 
 Parameters:
-
-    { "authToken":"CAABpBBdQZCT8BAK77qTxj9HQfj6f1xagQ5yGzftVZAzMsMGbGnRSRBNZAvg9wjL9z6NZCImLLlwDgdh2V4eSDLEgaGBSZAZBzF7jVfUk1lTC8vjoJClJP1e985u0jq708ZB4bEyjlZBy6blovedpzSlLsYSMnhvq0rBQxglWbP62iHcYe74ITY89u4RjRANkOnuaYxeHsu5ZBZBaZB93eeljCV0Tp28glnj74EZD"}
+```javascript
+{ "authToken":"CAABpBBdQZCT8BAK77qTxj9HQfj6f1xagQ5yGzftVZAzMsMGbGnRSRBNZAvg9wjL9z6NZCImLLlwDgdh2V4eSDLEgaGBSZAZBzF7jVfUk1lTC8vjoJClJP1e985u0jq708ZB4bEyjlZBy6blovedpzSlLsYSMnhvq0rBQxglWbP62iHcYe74ITY89u4RjRANkOnuaYxeHsu5ZBZBaZB93eeljCV0Tp28glnj74EZD"}
+```
 
 Response:
-
-    { "id":2,
-      "name":"Justin Huang",
-      "facebook_id":"1141801215",
-      "email":"justingotemail@gmail.com",
-      "token":"a3caf3291c5b0469f2bb04e360438211",
-      "created_at":"2014-02-20T18:14:54.000Z",
-      "updated_at":"2014-02-20T18:14:54.000Z"
-    }
+```javascript
+{ "id":2,
+  "name":"Justin Huang",
+  "facebook_id":"1141801215",
+  "email":"justingotemail@gmail.com",
+  "token":"a3caf3291c5b0469f2bb04e360438211",
+  "created_at":"2014-02-20T18:14:54.000Z",
+  "updated_at":"2014-02-20T18:14:54.000Z"
+}
+```
 
 
 GET  `/api/destinations`
